@@ -83,7 +83,7 @@ for filename in os.listdir(directory):
                                 "Wikidata_ID": wikidata_info
                             })
 
-                    # Append della frase, anche se entities è vuoto
+                    
                     new_data.append(new_item)
 
         # Salva il JSON UNA SOLA VOLTA alla fine
