@@ -71,7 +71,7 @@ output_dir = "baseline_data_output"
 os.makedirs(output_dir, exist_ok=True)
 
 TAGME_URL = "https://tagme.d4science.org/tagme/tag"
-TAGME_TOKEN = "a470fac7-cba8-498e-8a3f-d68baa3515da-843339462"
+TAGME_TOKEN = "INSERT-YOUR-TAGME-TOKEN-ON-d4science-HERE"
 HEADERS = {"User-Agent": "PythonScript/1.0 (mailto:youremail@example.com)"}
 
 error_log_path = "error_log.txt"
