@@ -937,11 +937,11 @@ for folder, precision, recall, f1_score in sorted_metrics:
 
 
 # print results of the best jcaccard threshold  
-df_results = best_f1_per_model(
-    gold_folder=gold_folder,
-    root_folder=root_folder,
-    metric_type="keyword linking"   
-)
+#df_results = best_f1_per_model(
+#    gold_folder=gold_folder,
+#    root_folder=root_folder,
+#    metric_type="keyword linking"   
+#)
 
 # print plot of f1, precision and recall for each jaccard threshold 
 #plot_all_metrics_trend(gold_folder, root_folder)
@@ -949,21 +949,4 @@ df_results = best_f1_per_model(
 #f_fp = fp_percentages_per_model(gold_folder, root_folder, jaccard)
     
 
-## conta FP/TP/FN
-# df_fp_relik = most_recurrent_cases(
-    # gold_folder=gold_folder,
-    # root_folder=root_folder,
-    # jaccard_threshold=jaccard,
-    # case_type="FP",
-    # model_name="Relik",
-    # group_by="pred_key", 
-    # top_n=20
-# )
-# pretty_print_recurrent_cases(
-    # df_fp_relik,
-    # case_type="FP",
-    # model_name="Relik",
-    # show_files=True,
-    # max_files=5,
-    # top_n=30
-# )
+
