@@ -28,7 +28,7 @@ def CallWikifier(text, lang="en", threshold=0.7):
     data = urllib.parse.urlencode([
         ("text", text), ("lang", lang),
         ("support", "true"),
-        ("userKey", "xvjsnkvomibidzigxwyjfihxjrkxhh"),
+        ("userKey", "INSERT-YOUR-USER-KEY-HERE"),
         ("pageRankSqThreshold", "%g" % threshold), ("applyPageRankSqThreshold", "true"),
         ("nTopDfValuesToIgnore", "200"), ("nWordsToIgnoreFromList", "200"),
         ("wikiDataClasses", "true"), ("wikiDataClassIds", "false"),
